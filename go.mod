@@ -1,4 +1,4 @@
-module github.com/xiaokangwang/VLite
+module github.com/hengyao6666/VLite
 
 go 1.21.4
 
