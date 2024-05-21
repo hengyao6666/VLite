@@ -3,10 +3,10 @@ module github.com/xiaokangwang/VLite
 go 1.21.4
 
 require (
-	github.com/FlowerWrong/water v0.0.0-20180301012659-01a4eaa1f6f2
+	./vendor2/github.com/FlowerWrong/water
 	github.com/boljen/go-bitmap v0.0.0-20151001105940-23cd2fb0ce7d
 	github.com/davecgh/go-spew v1.1.1
-	github.com/golang-collections/go-datastructures v0.0.0-20150211160725-59788d5eb259
+	./vendor2/github.com/golang-collections/go-datastructures
 	github.com/google/gopacket v1.1.17
 	github.com/gorilla/websocket v1.4.2
 	github.com/klauspost/reedsolomon v1.9.3
@@ -35,14 +35,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/songgao/water v0.0.0-20200317203138-2b4b6d7c09d8 // indirect
 	github.com/txthinking/runnergroup v0.0.0-20200327135940-540a793bb997 // indirect
-	github.com/txthinking/x v0.0.0-20200330144832-5ad2416896a9 // indirect
+	./vendor2/github.com/txthinking/x // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace github.com/FlowerWrong/water => ./vendor2/github.com/FlowerWrong/water
-
-replace github.com/golang-collections/go-datastructures => ./vendor2/github.com/golang-collections/go-datastructures
-
-replace github.com/txthinking/x v0.0.0-20200330144832-5ad2416896a9 => ./vendor2/github.com/txthinking/x
