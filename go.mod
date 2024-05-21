@@ -45,4 +45,4 @@ replace github.com/FlowerWrong/water => ./vendor2/github.com/FlowerWrong/water
 
 replace github.com/golang-collections/go-datastructures => ./vendor2/github.com/golang-collections/go-datastructures
 
-replace github.com/txthinking/x v0.0.0-20200330144832-5ad2416896a9 => ./vendor2/github.com/txthinking/x
+replace github.com/txthinking/x => ./vendor2/github.com/txthinking/x
